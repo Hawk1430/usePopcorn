@@ -1,11 +1,11 @@
 const containerStyle = {
-  dispay: "flex",
+  display: "flex",
   alignItems: "center",
   gap: "4rem",
 };
 
 const starContainerStyle = {
-  dispay: "flex",
+  display: "flex",
   gap: "1rem",
 };
 
