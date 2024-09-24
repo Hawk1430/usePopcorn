@@ -1,4 +1,6 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
+
 // We put style componenet outside so that while rerendering it will not be rerendered.
 const containerStyle = {
   display: "flex",
@@ -8,6 +10,16 @@ const containerStyle = {
 
 const starContainerStyle = {
   display: "flex",
+};
+
+StarRating.propTypes = {
+  maxRating: PropTypes.number,
+  defaultRating: PropTypes.number,
+  size: PropTypes.number,
+  color: PropTypes.string,
+  messages: PropTypes.array,
+  className: PropTypes.string,
+  onSetRating: PropTypes.func,
 };
 
 export default function StarRating({

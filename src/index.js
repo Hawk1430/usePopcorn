@@ -19,7 +19,7 @@ root.render(
   <React.StrictMode>
     <StarRating maxRating={10} />
     <StarRating
-      maxRating={5}
+      maxRating={10}
       color="red"
       size={24}
       messages={["a", "b", "c", "d", "e"]}
